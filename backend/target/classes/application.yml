@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: about-huang-backend
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/xiaohuang
+      database: xiaohuang
+
+# CORS 配置
+cors:
+  allowed-origins: "*"
